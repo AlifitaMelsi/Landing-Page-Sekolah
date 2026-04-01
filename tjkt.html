@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jurusan TJKT</title>
+
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+<style>
+  .hero {
+            background-image: url("tkj.jpeg");
+            background-size:cover;
+            background-position:center;
+            min-height:30vh;
+        }
+
+ .overlay {
+            background-color: rgba(51, 131, 196, 0.459); 
+            min-height: 30vh;
+        }
+</style>
+
+</head>
+<body class="bg-light" style="padding-top:90px;">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+  <div class="container">
+
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="logo.png" width="60" class="me-2">
+      <b>SMK NEGERI TENGARAN</b>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link active text-white" href="index.html">Beranda</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white" href="index.html#Visi-Misi">Visi Misi</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white" href="index.html#data-siswa">Data Siswa</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">
+            Jurusan
+          </a>
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="pplg.html">PPLG</a></li>
+            <li><a class="dropdown-item" href="tjkt.html">TJKT</a></li>
+            <li><a class="dropdown-item" href="kuliner.html">Kuliner</a></li>
+            <li><a class="dropdown-item" href="busana.html">Busana</a></li>
+            <li><a class="dropdown-item" href="otomotif.html">Otomotif</a></li>
+
+            <li><hr class="dropdown-divider"></li>
+
+            <li><a class="dropdown-item" href="#">Lihat Semua</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Header -->
+ <div class="hero">
+  <div class="overlay">
+    <section class="text-white text-center p-5">
+      <div class="container">
+        <h2 class="fw-bold">TEKNIK JARINGAN KOMPUTER DAN TELEKOMUNIKASI</h2>
+        <p>
+          Jurusan yang mempelajari instalasi jaringan komputer,
+          konfigurasi server, serta teknologi komunikasi modern.
+        </p>
+      </div>
+    </section>
+  </div>
+ </div>
+
+<!-- Content -->
+ <style>
+  .icon-bg1 {
+    background-color: rgb(204,226,241);
+    padding: 15px;
+    border-radius: 10px;
+    height: 80px;
+  }
+
+  .icon-bg2 {
+    background-color: rgb(191,226,241);
+    padding: 15px;
+    border-radius: 10px;
+    height: 80px;
+  }
+</style>
+
+<div class="container mt-5">
+  <div class="row">
+    <!-- Kiri -->
+    <div class="col-md-8">
+      <div class="card shadow-sm p-4">
+        <h4 class="fw-bold">Menjadi Ahli Jaringan Profesional</h4>
+        <p>
+        TJKT merupakan program keahlian yang mempelajari
+        bagaimana membangun, mengelola, dan memperbaiki
+        jaringan komputer serta sistem komunikasi data.
+        </p>
+
+        <div class="col d-flex drow mt-4">
+          <i class="bi bi-router me-3 text-primary icon-bg1" style="font-size: 30px;"></i>
+          <div class="col-md-5">
+            <h5 class="fw-bold mb-1">Instalasi Jaringan</h5>
+            <p class="text-start">Mempelajari pemasangan kabel jaringan,
+            konfigurasi router, switch, dan perangkat jaringan lainnya.</p>
+          </div>
+
+          <i class="bi bi-wifi me-3 text-success icon-bg2" style="font-size: 30px;"></i>
+          <div class="col-md-7">
+            <h5 class="fw-bold mb-1">Administrasi Server</h5>
+            <p class="text-start1">Mengelola server untuk kebutuhan jaringan, hosting,<br /> database, dan layanan internet.</p>
+          </div>
+        </div>
+
+        <hr>
+
+        <h5 class="fw-bold mt-3">Fasilitas Unggulan</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item d-flex justify-content-between">
+            Laboratorium Jaringan
+            <span class="badge bg-primary">2 Lab</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            Perangkat Router & Switch
+            <span class="badge bg-success">Cisco / Mikrotik</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            Sertifikasi Jaringan
+            <span class="badge bg-info">Mikrotik / Cisco</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Kanan -->
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <div class="card-header bg-dark text-white text-center">
+          Status Pendaftaran
+        </div>
+        <div class="card-body">
+          <p>Kuota Terisi</p>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-primary" style="width:80%">80%</div>
+          </div>
+          <button class="btn btn-primary w-100">Daftar Sekarang</button>
+          <a href="index.html" class="btn btn-light w-100 mt-2">
+            <i class="bi bi-arrow-left"></i>  Kembali
+          </a>
+        </div>
+    </div>
+
+      <div class="card shadow-sm mt-4">
+        <img src="tkj.jpeg" class="card-img-top">
+        <div class="card-body">
+          <p class="small">
+          "Belajar di TJKT membuat saya memahami jaringan komputer
+          dan siap bekerja di bidang IT networking."
+          </p>
+          <b>- Ana, Alumni 2028</b>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-primary text-white text-center p-3 mt-5">
+© 2026 SMK DIGITAL. Seluruh Hak Cipta Dilindungi.
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
